@@ -1,4 +1,4 @@
-GO_FILES := out_rabbitmq.go routing_key_validator.go routing_key_creator.go record_parser.go helper.go
+GO_FILES := out_rabbitmq.go routing_key_validator.go routing_key_creator.go record_parser.go 
 
 PLATFORMS := linux-amd64 linux-arm64 darwin-amd64 darwin-arm64
 LINUX_PLATFORMS := linux-amd64 linux-arm64
