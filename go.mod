@@ -1,10 +1,10 @@
 module github.com/igd-geo/fluent-bit-rabbitmq-output
 
-go 1.20
+go 1.21
+
+require github.com/fluent/fluent-bit-go v0.0.0-20230731091245-a7a013e2473c
 
 require (
-	github.com/fluent/fluent-bit-go 
-	github.com/rabbitmq/amqp091-go 
+        github.com/streadway/amqp v1.1.0
+        github.com/ugorji/go/codec v1.2.12 // indirect
 )
-
-require github.com/ugorji/go/codec 
